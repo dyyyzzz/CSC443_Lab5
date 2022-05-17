@@ -32,6 +32,7 @@ $monthDays = array ('January'   => 31, 'February'  => 28,
     echo "------------------------------------------------------------------------------------------------------";
     echo "<br>";
     echo "c)";
+    echo "<br>";
 
     $month[0] = 'January'; 
     $month[1] = 'February';
