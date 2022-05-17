@@ -14,4 +14,9 @@
     $month[11] = 'December';
 
     echo asort($month, SORT_STRING);
+
+    foreach($month as $key => $val) {
+        echo "month[" . $key . "] = " . $val . "\n";
+    }
     ?>
+    
