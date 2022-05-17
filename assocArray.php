@@ -11,5 +11,6 @@ $monthDays = array ('January'   => 31, 'February'  => 28,
         <TD><B>MONTH</B></TD>
         <TD><B>DAYS</B></TD>
 </TR>
+<?php
 
 
