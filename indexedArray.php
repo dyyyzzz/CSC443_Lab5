@@ -18,5 +18,6 @@
     foreach($month as $key => $val) {
         echo  $val . "\n";
     }
+    print_r($month);
     ?>
     
