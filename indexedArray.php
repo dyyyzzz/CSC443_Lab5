@@ -13,7 +13,7 @@
     $month[10] = 'November';
     $month[11] = 'December';
 
-    echo asort($month, SORT_STRING);
+  asort($month, SORT_STRING);
 
     foreach($month as $key => $val) {
         echo  $val . "\n";
