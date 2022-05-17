@@ -21,14 +21,13 @@
                             'Sploctember' => 31, 'Splictember' => 31,
                             'Splanet' => 30, 'TheRest' => 22);
     
-     print_r("Minimum Days: " .min($monthDays));
+     print_r("Minimum Days: " .min($monthDays)); //number (i)
      echo "<br>";
-     print_r("Maximum Days: " .max($month));
+     print_r("Minimum Days month: " .array_search(min($monthDays),$monthDays)); //number (ii)
      echo "<br>";
-     print_r("Number of Days in Year: " .array_sum($monthDays), $monthDays));
+     print_r("Number of Days in Year: " .array_sum($monthDays); //number (iii)
      echo "<br>";
-     print_r("Maximum Days month: " .array_search(max($monthDays),$monthDays));
-     echo "<br>";
+
 
     
 
