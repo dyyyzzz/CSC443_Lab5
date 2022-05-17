@@ -25,7 +25,7 @@
      echo "<br>";
      print_r("Minimum Days month: " .array_search(min($monthDays),$monthDays)); //number (ii)
      echo "<br>";
-     print_r("Number of Days in Year: " .array_sum($monthDays); //number (iii)
+     print_r("Number of Days in Year: " .array_sum($monthDays)); //number (iii)
      echo "<br>";
 
 
