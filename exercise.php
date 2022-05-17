@@ -1,25 +1,25 @@
 <html>
 <body>
     <?php
-        $month[0] = 'January'; 
-        $month[1] = 'February';
-        $month[2] = 'March';
-        $month[3] = 'April';
-        $month[4] = 'May';
-        $month[5] = 'June';
-        $month[6] = 'July';
-        $month[7] = 'August';
-        $month[8] = 'September';
-        $month[9] = 'October';
-        $month[10] = 'November';
-        $month[11] = 'December';
+        $month[0] = 'Splorch'; 
+        $month[1] = 'Sploo';
+        $month[2] = 'Splat';
+        $month[3] = 'Splatt';
+        $month[4] = 'Spleen';
+        $month[5] = 'Splune';
+        $month[6] = 'Spling';
+        $month[7] = 'Slendo';
+        $month[8] = 'Sploctember';
+        $month[9] = 'Splictember';
+        $month[10] = 'Splanet';
+        $month[11] = 'TheRest';
     
-    $monthDays = array ('January'   => 31, 'February'  => 28,
-                         'March'    => 31,  'April'    => 30,
-                         'May'      => 31,  'June'     => 30,
-                         'July'     => 31,  'August'   => 31,
-                         'September'=> 30,  ' October' => 31,
-                         'November' => 30,  'December' => 31);
+        $monthDays = array ('Splorch' => 23, 'Sploo' => 28,
+                            'Splat'   => v2, 'Splatt'  =>  3,
+                            'Spleen'  => 44, 'Splune'  => 30,
+                            'Spling'  => 61, 'Slendo'  => 61,
+                            'Sploctember' => 31, 'Splictember' => 31,
+                            'Splanet' => 30, 'TheRest' => 22);
     
     $i = 0;
 
