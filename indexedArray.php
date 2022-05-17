@@ -20,6 +20,6 @@
     }
   
 
-    "\n" print_r($month);
+    print_r($month);
     ?>
     
