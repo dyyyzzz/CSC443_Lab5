@@ -21,7 +21,7 @@
     $month[10] = 'November';
     $month[11] = 'December';
 
-    asort($month[], SORT_NUMERIC);
+    asort($month, SORT_NUMERIC);
     ?>
 
 </body>
