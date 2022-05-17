@@ -22,15 +22,13 @@
     $month[10] = 'November';
     $month[11] = 'December';
 
-  asort($month, SORT_STRING);
+    $key = count($month);
 
-    foreach($month as $key => $val) {
-        echo  $val . "\n";
+    for($i = 0; $i < $key; $i++){
+        sort($month);
+        echo $month[$i];
+        echo "<br>";
     }
-  
-
-    echo "<br><\n>";
-    print_r($month);
     ?>
     </body>
     </html>
