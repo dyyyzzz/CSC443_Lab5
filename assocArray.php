@@ -9,7 +9,7 @@ $monthDays = array ('January'   => 31, 'February'  => 28,
 <TABLE border="1">
     <TR>
         <TD><B>MONTH</B></TD>
-        <TD><B>MONTH</B></TD>
+        <TD><B>DAYS</B></TD>
 </TR>
 
 
