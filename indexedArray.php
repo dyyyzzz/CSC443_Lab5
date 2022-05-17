@@ -13,5 +13,5 @@
     $month[10] = 'November';
     $month[11] = 'December';
 
-    echo asort($month["month"], SORT_NUMERIC);
+    echo asort($month, SORT_REGULAR);
     ?>
