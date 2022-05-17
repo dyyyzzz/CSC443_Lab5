@@ -13,10 +13,10 @@
     $month[10] = 'November';
     $month[11] = 'December';
 
-    echo asort($month[], SORT_STRING);
+    echo asort($month, SORT_STRING);
 
     foreach($month as $key => $val) {
-        echo "month[" . $key . "] = " . $val . "\n";
+        echo  $val . "\n";
     }
     ?>
     
